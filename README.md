@@ -36,7 +36,7 @@ Here are the options for MikroBrute here.
 | Option    | Function                         |
 | --------  | -------------------------------- |
 | `--site`  | MikroTik web login address       |
-| `--userl` | Target user list to attack       |
+| `--userl` | Target username list to attack   |
 | `--passl` | Password dictionary              |
 
 You can pass those options in the form of arguments.

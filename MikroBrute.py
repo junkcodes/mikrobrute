@@ -54,12 +54,16 @@ def bf(website, userlist, passlist):
 		exit(1)
 	try: 
 		for username in g:
-		    user = username.rstrip('\n')
+		    user = username.strip()
+		    if user == '':
+		    	continue
 		    f.seek(0)
 		    offset = 0
 		    failed = 0
 		    for password in f: 
-		        pwd = password.rstrip('\n')
+		        pwd = password.strip()
+		        if pwd == '':
+		        	continue
 		        if failed != 1: 
 		            browser.get(website) 
 		            browser.find_element(By.CSS_SELECTOR, value='#name').clear()

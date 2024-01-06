@@ -7,8 +7,6 @@ MikroBrute is a brute-force script for MikroTik router credentials which attempt
 1. Python 3.10+
 2. Google chrome
 
-**Note:** Use the ChromeDriver version corresponding to your Chrome version.
-
 ## Installation
 
 - Clone the repo

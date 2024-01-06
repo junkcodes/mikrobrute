@@ -23,7 +23,7 @@ class color:
 usage = 'usage: %prog --site "http://172.16.16.1:8081" --user userlist.txt --pass passlist.txt'
 parser = OptionParser(usage=usage) # Shorten the argument parser function
 parser.add_option("--site", dest="url", help="MikroTik web login address") # Argument for the target login page
-parser.add_option("--userl", dest="userlist", help="Target user list to attack") # Argument for the target username to be attacked
+parser.add_option("--userl", dest="userlist", help="Target username list to attack") # Argument for the target usernames to be attacked
 parser.add_option("--passl", dest="passlist", help="Password dictionary") # Arguments for the location of the password dictionary file
 (options, args) = parser.parse_args() # Parse the arguments given by the user
 
